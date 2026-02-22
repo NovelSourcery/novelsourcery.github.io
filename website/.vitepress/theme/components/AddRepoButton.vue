@@ -31,8 +31,8 @@ function handleAnalytics() {
         Unsupported operating system
       </p>
       <p>
-        <strong>Mihon</strong> is an <strong>Android app</strong> only.
-        Use an <strong>Android device with Mihon installed</strong> to
+        <strong>Tsundoku</strong> is an <strong>Android app</strong> only.
+        Use an <strong>Android device with Tsundoku installed</strong> to
         add this extension store.
       </p>
     </div>
@@ -42,14 +42,14 @@ function handleAnalytics() {
       <a
         class="action-button"
         :class="!!isAndroid ? 'primary' : 'secondary'"
-        :href="`mihon://extension-store?url=${encodeURIComponent(GITHUB_EXTENSION_PB)}`"
+        :href="`tsundoku://extension-store?url=${encodeURIComponent(GITHUB_EXTENSION_PB)}`"
         @click="handleAnalytics"
       >
         <span class="text">Add store</span>
       </a>
     </div>
     <span class="version-disclaimer">
-      Requires <strong>Mihon {{ mihonVersion }}</strong> or newer.
+      Requires <strong>Tsundoku {{ mihonVersion }}</strong> or newer.
     </span>
   </div>
 </template>

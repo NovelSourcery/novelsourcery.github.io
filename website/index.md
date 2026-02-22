@@ -3,20 +3,20 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: "home"
 
-title: "Keiyoushi"
-description: "Extension store for Mihon and variants."
+title: "NovelSourcery"
+description: "Extension store for Tsundoku and variants."
 
 hero:
-  name: "Keiyoushi"
+  name: "NovelSourcery"
   text: ""
-  tagline: "Extension store for Mihon and variants."
+  tagline: "Extension store for Tsundoku and variants."
   actions:
     - theme: "brand"
       text: "Get started"
       link: "/docs/guides/getting-started"
     - theme: "alt"
       text: "Need Help?"
-      link: "https://discord.gg/3FbCpdKbdY"
+      link: "https://discord.gg/JG2K2jTjd6"
 
 features:
   - title: "Extensions"
@@ -38,9 +38,9 @@ features:
 ::: warning :warning: Extension list says my app is outdated
 If you are seeing an empty extension list with the message "Outdated app" or all extensions showing as obsolete, it means that your app is no longer compatible with our extensions.
 
-Keiyoushi only supports the following Android apps, anything else isn't supported so if it doesn't work, you are on your own:
+NovelSourcery only supports the following Android apps, anything else isn't supported so if it doesn't work, you are on your own:
 
-Mihon, TachiyomiSY and Komikku.
+Tsundoku
 
 # **Make sure your app is updated to the latest version!**
 

@@ -18,7 +18,7 @@ Essential information to help you set up the extension store.
 Uninstall all existing extensions. You will not get extension updates otherwise.
 
 ### Adding the store
-For all modern variants of Mihon (TachiyomiSY, Komikku),
+For all modern variants of Tsundoku,
 click the button below to add the store:
 
 <AddRepoButton />
@@ -30,7 +30,7 @@ click the button below to add the store:
 :::
 
 ### Reinstall the extensions
-Restart Mihon to reload the extension list, then reinstall all extensions.
+Restart Tsundoku to reload the extension list, then reinstall all extensions.
 
 ::: tip
 Go to <nav to="migrate"> to see what extensions you are missing.

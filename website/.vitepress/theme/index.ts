@@ -15,7 +15,7 @@ export default {
   enhanceApp({ app }) {
     app.use(VueQueryPlugin);
     enhanceAppWithTabs(app);
-    goatcounter({ id: "keiyoushi" });
+    goatcounter({ id: "novelsourcery" });
   },
   Layout,
 } satisfies Theme

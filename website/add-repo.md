@@ -35,17 +35,17 @@ next: false
                 title: "Add extension store",
             });
 
-            window.location.replace(`mihon://extension-store?url=${encodedUrl}`);
+            window.location.replace(`tsundoku://extension-store?url=${encodedUrl}`);
         }
     });
 </script>
 
 <div v-if="isAndroid">
-    You should be redirected to Mihon in a moment. Refresh the page if it doesn't work,
+    You should be redirected to Tsundoku in a moment. Refresh the page if it doesn't work,
     or add the store manually using this link:
 </div>
 <div v-else>
-    Unsupported operating system. Mihon is an <strong>Android</strong> app only. Please add
+    Unsupported operating system. Tsundoku is an <strong>Android</strong> app only. Please add
     the store manually using this link:
 </div>
 
