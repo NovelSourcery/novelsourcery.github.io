@@ -37,10 +37,11 @@ function handleAnalytics() {
       </p>
     </div>
   </div>
-  <div v-else>
+  <div>
     <div class="action-buttons">
       <a
-        class="action-button primary"
+        class="action-button"
+        :class="!!isAndroid ? 'primary' : 'secondary'"
         :href="`mihon://extension-store?url=${encodeURIComponent(GITHUB_EXTENSION_PB)}`"
         @click="handleAnalytics"
       >
