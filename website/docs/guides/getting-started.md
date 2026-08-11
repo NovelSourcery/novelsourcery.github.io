@@ -17,13 +17,13 @@ Essential information to help you set up the extension store.
 ### Before you start
 Uninstall all existing extensions. You will not get extension updates otherwise.
 
-### Adding the repository
+### Adding the store
 For all modern variants of Mihon (TachiyomiSY, Komikku),
-click the button below to add the repository:
+click the button below to add the store:
 
 <AddRepoButton />
 
-::: details Adding the repo manually
+::: details Adding the store manually
 - Go to <nav to="extension-repos">
 - Select "Add" at the bottom of your screen.
 - Enter <a :href="GITHUB_EXTENSION_PB">{{ GITHUB_EXTENSION_PB }}</a>

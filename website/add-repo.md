@@ -1,7 +1,7 @@
 ---
 # SPDX-License-Identifier: Apache-2.0
-title: "Add repository"
-description: "Add this repository to the app"
+title: "Add store"
+description: "Add this store to the app"
 lastUpdated: false
 editLink: false
 prev: false
@@ -32,7 +32,7 @@ next: false
         if (isAndroid.value) {
             window.goatcounter?.count?.({
                 path: "/#add-to-tachiyomi",
-                title: "Add extension repository",
+                title: "Add extension store",
             });
 
             window.location.replace(`mihon://extension-store?url=${encodedUrl}`);
@@ -42,11 +42,11 @@ next: false
 
 <div v-if="isAndroid">
     You should be redirected to Mihon in a moment. Refresh the page if it doesn't work,
-    or add the repo manually using this link:
+    or add the store manually using this link:
 </div>
 <div v-else>
     Unsupported operating system. Mihon is an <strong>Android</strong> app only. Please add
-    the repo manually using this link:
+    the store manually using this link:
 </div>
 
 <a :href="url">{{ url }}</a>

@@ -19,7 +19,7 @@ onMounted(() => {
 function handleAnalytics() {
   window.goatcounter?.count?.({
     path: "/#add-to-tachiyomi",
-    title: "Add extension repository",
+    title: "Add extension store",
   });
 }
 </script>
@@ -45,7 +45,7 @@ function handleAnalytics() {
         :href="`mihon://extension-store?url=${encodeURIComponent(GITHUB_EXTENSION_PB)}`"
         @click="handleAnalytics"
       >
-        <span class="text">Add repository</span>
+        <span class="text">Add store</span>
       </a>
     </div>
     <span class="version-disclaimer">
